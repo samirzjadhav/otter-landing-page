@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.root {
+  --white-color: #fff;
+}
+
+.navbar {
+  @apply p-[32px];
+}
+
+.nav-menu {
+  @apply flex justify-around items-center;
+}
+.nav-item {
+  @apply flex gap-[30px];
+}
+
+.nav-link {
+  @apply flex items-center gap-[6px];
+}
+
+.nav-item > a {
+  @apply opacity-70 text-[#041d34] px-[16px] font-normal;
+}
+
+.sales {
+  @apply border-r-2;
+}
+
+.nav-link > a {
+  @apply text-base font-semibold;
+}
+
+.button {
+  @apply px-[20px] py-[10px] rounded-2xl bg-[#007aff] text-white text-base font-semibold !important;
+}
+
+.nav-link > a:hover {
+  @apply text-[#007aff];
+}
+
+.nav-item > a:hover {
+  @apply text-[#041d34] opacity-100;
+}
+
+.icons {
+  @apply w-[20px] h-[20px];
+}
