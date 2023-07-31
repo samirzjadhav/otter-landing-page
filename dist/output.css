@@ -608,3 +608,18 @@ video {
   height: 20px;
   width: 20px;
 }
+
+/* Banner */
+
+.banner-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-box div {
+  height: 1px;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 214 / var(--tw-bg-opacity));
+}

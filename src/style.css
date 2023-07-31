@@ -48,3 +48,12 @@
 .icons {
   @apply w-[20px] h-[20px];
 }
+
+/* Banner */
+
+.banner-box {
+  @apply flex justify-center items-center;
+}
+.banner-box div {
+  @apply h-[1px] w-full bg-[#ff00d6];
+}
