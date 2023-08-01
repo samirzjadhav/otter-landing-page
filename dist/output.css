@@ -611,10 +611,39 @@ video {
 
 /* Banner */
 
-.banner-box {
+.home-banner {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 212 79 / var(--tw-bg-opacity));
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.banner-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10px;
+}
+
+.banner-box {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.banner-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.banner-subtitle {
+  width: 200px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .banner-box div {
