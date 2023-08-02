@@ -640,8 +640,14 @@ video {
   font-weight: 700;
 }
 
+.banner-title span {
+  --tw-text-opacity: 1;
+  color: rgb(108 38 241 / var(--tw-text-opacity));
+}
+
 .banner-subtitle {
-  width: 200px;
+  width: 300px;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
 }

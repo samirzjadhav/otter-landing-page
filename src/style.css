@@ -17,7 +17,7 @@
   @apply flex gap-[30px];
 }
 
-.nav-link 
+.nav-link {
   @apply flex items-center gap-[6px];
 }
 
@@ -65,12 +65,12 @@
   @apply text-xl font-bold;
 }
 
-.banner-title span{
-  @apply text-[#6c26f1]
+.banner-title span {
+  @apply text-[#6c26f1];
 }
 
 .banner-subtitle {
-  @apply h-0 w-[200px] text-sm;
+  @apply w-[300px] text-sm text-center;
 }
 .banner-box div {
   @apply h-[1px] w-full bg-[#ff00d6];
