@@ -93,5 +93,5 @@
 }
 
 .hero-heading {
-  @apply text-xl font-medium pb-[12px];
+  @apply text-2xl font-medium pb-[12px];
 }
