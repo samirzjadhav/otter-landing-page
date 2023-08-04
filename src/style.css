@@ -75,3 +75,23 @@
 .banner-box div {
   @apply h-[1px] w-full bg-[#ff00d6];
 }
+
+.home-hero {
+  @apply p-[32px];
+}
+
+.hero-container {
+  @apply flex justify-between items-center;
+}
+
+.hero-content {
+  @apply p-[12px];
+}
+
+.new-tag {
+  @apply pb-[10px];
+}
+
+.hero-heading {
+  @apply text-xl font-medium pb-[12px];
+}
