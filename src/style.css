@@ -6,92 +6,102 @@
   --white-color: #fff;
 }
 
-.navbar {
-  @apply p-[32px];
-}
+@layer components {
+  .navbar {
+    @apply p-[32px];
+  }
 
-.nav-menu {
-  @apply flex justify-around items-center;
-}
-.nav-item {
-  @apply flex gap-[30px];
-}
+  .nav-menu {
+    @apply flex justify-around items-center;
+  }
+  .nav-item {
+    @apply flex gap-[30px];
+  }
 
-.nav-link {
-  @apply flex items-center gap-[6px];
-}
+  .nav-link {
+    @apply flex items-center gap-[6px];
+  }
 
-.nav-item > a {
-  @apply opacity-70 text-[#041d34] px-[16px] font-normal;
-}
+  .nav-item > a {
+    @apply opacity-70 text-[#041d34] px-[16px] font-normal;
+  }
 
-.sales {
-  @apply border-r-2;
-}
+  .sales {
+    @apply border-r-2;
+  }
 
-.nav-link > a {
-  @apply text-base font-semibold;
-}
+  .nav-link > a {
+    @apply text-base font-semibold;
+  }
 
-.button {
-  @apply px-[20px] py-[10px] rounded-2xl bg-[#007aff] text-white text-base font-semibold !important;
-}
+  .button {
+    @apply px-[20px] py-[10px] rounded-2xl bg-[#007aff] text-white text-base font-semibold !important;
+  }
 
-.nav-link > a:hover {
-  @apply text-[#007aff];
-}
+  .nav-link > a:hover {
+    @apply text-[#007aff];
+  }
 
-.nav-item > a:hover {
-  @apply text-[#041d34] opacity-100;
-}
+  .nav-item > a:hover {
+    @apply text-[#041d34] opacity-100;
+  }
 
-.icons {
-  @apply w-[20px] h-[20px];
-}
+  .icons {
+    @apply w-[20px] h-[20px];
+  }
 
-/* Banner */
+  /* Banner */
 
-.home-banner {
-  @apply bg-[#f6d44f] px-[20px];
-}
+  .home-banner {
+    @apply bg-[#f6d44f] px-[20px];
+  }
 
-.banner-content {
-  @apply flex justify-center items-center flex-col p-[10px];
-}
-.banner-box {
-  @apply flex w-[600px] justify-center items-center gap-[20px];
-}
-.banner-title {
-  @apply text-xl font-bold;
-}
+  .banner-content {
+    @apply flex justify-center items-center flex-col p-[10px];
+  }
+  .banner-box {
+    @apply flex w-[600px] justify-center items-center gap-[20px];
+  }
+  .banner-title {
+    @apply text-xl font-bold;
+  }
 
-.banner-title span {
-  @apply text-[#6c26f1];
-}
+  .banner-title span {
+    @apply text-[#6c26f1];
+  }
 
-.banner-subtitle {
-  @apply w-[300px] text-sm text-center;
-}
-.banner-box div {
-  @apply h-[1px] w-full bg-[#ff00d6];
-}
+  .banner-subtitle {
+    @apply w-[300px] text-sm text-center;
+  }
+  .banner-box div {
+    @apply h-[1px] w-full bg-[#ff00d6];
+  }
 
-.home-hero {
-  @apply p-[32px];
-}
+  .home-hero {
+    @apply p-[32px] w-[80%] m-auto;
+  }
 
-.hero-container {
-  @apply flex justify-between items-center;
-}
+  .hero-container {
+    @apply flex justify-between items-center rounded-xl bg-black text-white;
+  }
 
-.hero-content {
-  @apply p-[12px];
-}
+  .hero-content {
+    @apply p-[50px] flex flex-col justify-between items-start;
+  }
 
-.new-tag {
-  @apply pb-[10px];
-}
+  .new-tag {
+    @apply pb-[10px];
+  }
 
-.hero-heading {
-  @apply text-2xl font-medium pb-[12px];
+  .new-tag p {
+    @apply bg-red-600 p-[4px] w-[44px] rounded;
+  }
+
+  .hero-heading {
+    @apply text-4xl font-medium pb-[12px];
+  }
+
+  video {
+    @apply rounded-r-xl;
+  }
 }
