@@ -8,7 +8,8 @@
 
 @layer components {
   .navbar {
-    @apply p-[32px];
+    @apply p-[32px] hidden;
+    @apply sm:block;
   }
 
   .nav-menu {
@@ -82,7 +83,8 @@
   }
 
   .hero-container {
-    @apply flex justify-between items-center rounded-xl bg-black text-white;
+    @apply flex-col justify-between items-center rounded-xl bg-black text-white;
+    @apply md:flex flex-row;
   }
 
   .hero-content {
