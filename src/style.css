@@ -64,7 +64,8 @@
     @apply flex w-[600px] justify-center items-center gap-[20px];
   }
   .banner-title {
-    @apply text-xl font-bold;
+    @apply text-lg font-bold;
+    @apply sm:text-xl font-bold;
   }
 
   .banner-title span {
@@ -78,8 +79,9 @@
     @apply h-[1px] w-full bg-[#ff00d6];
   }
 
-  .home-hero {
-    @apply p-[32px] w-[80%] m-auto;
+  .home-container {
+    @apply p-[32px] m-auto;
+    @apply sm:w-[80%];
   }
 
   .hero-container {
@@ -105,5 +107,25 @@
 
   video {
     @apply rounded-r-xl;
+  }
+
+  .home-content {
+    @apply flex justify-center items-center;
+  }
+
+  .content {
+    @apply flex justify-center items-center mx-[44px];
+    @apply sm:flex-row;
+  }
+
+  .content-img {
+    @apply mt-[16px] mr-[16px];
+  }
+
+  .content-title {
+    @apply text-4xl font-medium pb-[30px];
+  }
+  .content-discription {
+    @apply text-xl font-normal;
   }
 }
