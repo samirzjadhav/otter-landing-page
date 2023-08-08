@@ -114,8 +114,8 @@
   }
 
   .content {
-    @apply flex justify-center items-center mx-[44px];
-    @apply sm:flex-row;
+    @apply flex justify-center flex-col-reverse !important  items-center mx-[44px];
+    @apply sm:flex-row-reverse;
   }
 
   .content-img {
