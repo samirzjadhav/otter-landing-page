@@ -114,7 +114,7 @@
   }
 
   .content {
-    @apply flex justify-center flex-col-reverse !important  items-center mx-[44px];
+    @apply flex justify-center flex-col items-center mx-[44px];
     @apply sm:flex-row-reverse;
   }
 

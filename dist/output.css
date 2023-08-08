@@ -773,6 +773,14 @@ video {
   margin-bottom: 70px;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
