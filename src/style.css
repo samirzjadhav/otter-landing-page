@@ -4,6 +4,7 @@
 
 .root {
   --white-color: #fff;
+  --spon-logo: #7c91a3;
 }
 
 @layer components {
@@ -123,9 +124,19 @@
   }
 
   .content-title {
-    @apply text-4xl font-medium pb-[30px];
+    @apply text-2xl font-normal pb-[10px];
+    @apply sm:text-4xl sm:font-medium sm:pb-[30px];
   }
   .content-discription {
-    @apply text-xl font-normal;
+    @apply text-lg font-normal;
+    @apply sm:text-xl sm:font-normal;
+  }
+
+  .sponser-logos {
+    @apply flex flex-wrap gap-[20px] py-[40px] px-[20px]  justify-between items-center;
+  }
+
+  .sponser-logos img {
+    @apply opacity-50;
   }
 }
