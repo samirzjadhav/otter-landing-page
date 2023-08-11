@@ -115,8 +115,8 @@
   }
 
   .content {
-    @apply flex justify-center flex-col items-center mx-[44px];
-    @apply sm:flex-row-reverse;
+    @apply grid grid-cols-1 justify-center flex-col-reverse items-center mx-[44px];
+    @apply sm:grid sm:grid-cols-2;
   }
 
   .content-img {
@@ -138,5 +138,20 @@
 
   .sponser-logos img {
     @apply opacity-50;
+  }
+
+  .content-imgs img {
+    @apply w-[48px];
+  }
+  .content-imgs div {
+    @apply flex justify-between items-center w-[400px] py-[10px] px-[20px] rounded-xl border;
+  }
+
+  .content-imgs a {
+    @apply text-lg opacity-50;
+  }
+
+  .content-center {
+    @apply justify-center;
   }
 }
