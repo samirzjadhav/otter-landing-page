@@ -82,7 +82,7 @@
 
   .home-container {
     @apply p-[32px] m-auto;
-    @apply sm:w-[80%];
+    @apply sm:w-[80%] lg:m-0 lg:w-[100%];
   }
 
   .hero-container {
@@ -115,8 +115,8 @@
   }
 
   .content {
-    @apply grid grid-cols-1 justify-center flex-col-reverse items-center mx-[44px];
-    @apply sm:grid sm:grid-cols-2;
+    @apply grid grid-cols-1 gap-y-8 justify-center flex-col-reverse items-center mx-[44px] my-[44px];
+    @apply sm:grid sm:grid-cols-2 sm:gap-x-8;
   }
 
   .content-img {
@@ -141,17 +141,23 @@
   }
 
   .content-imgs img {
-    @apply w-[48px];
+    @apply w-[56px];
   }
-  .content-imgs div {
-    @apply flex justify-between items-center w-[400px] py-[10px] px-[20px] rounded-xl border;
+  .content-logo {
+    @apply flex justify-between items-center w-[340px] flex-row  py-[20px] px-[20px] shadow-black rounded-xl border my-[20px];
   }
 
   .content-imgs a {
-    @apply text-lg opacity-50;
+    @apply text-xl font-medium opacity-40;
   }
 
-  .content-center {
-    @apply justify-center;
+  .content-img-center {
+    @apply flex justify-center;
+  }
+  .content-img-end {
+    @apply flex justify-end;
+  }
+  .content-img-start {
+    @apply flex justify-start;
   }
 }
