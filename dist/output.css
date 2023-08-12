@@ -674,16 +674,17 @@ video {
   padding: 32px;
 }
 
-@media (min-width: 640px) {
-  .home-container {
-    width: 80%;
-  }
-}
-
 @media (min-width: 1024px) {
   .home-container {
     margin: 0px;
     width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-container {
+    margin: auto;
+    width: 80%;
   }
 }
 

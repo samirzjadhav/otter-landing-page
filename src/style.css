@@ -82,7 +82,7 @@
 
   .home-container {
     @apply p-[32px] m-auto;
-    @apply sm:w-[80%] lg:m-0 lg:w-[100%];
+    @apply xl:w-[80%] xl:m-auto lg:m-0 lg:w-[100%];
   }
 
   .hero-container {
