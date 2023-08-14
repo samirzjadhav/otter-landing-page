@@ -879,8 +879,63 @@ video {
   justify-content: flex-start;
 }
 
+/* Which Section */
+
+.which-title {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-which__inner {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.home-which__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.item-img {
+  border-radius: 9999px;
+  border-width: 1px;
+  padding: 70px;
+}
+
+.which-heading {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.which-description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
 .mb-\[70px\] {
   margin-bottom: 70px;
+}
+
+.bg-\[\#041D34\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 29 52 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#19C184\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 193 132 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#8A78F0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(138 120 240 / var(--tw-bg-opacity));
 }
 
 .text-base {

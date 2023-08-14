@@ -164,4 +164,29 @@
   .content-img-start {
     @apply flex justify-start;
   }
+
+  /* Which Section */
+
+  .which-title {
+    @apply flex justify-center mb-[40px];
+  }
+  .home-which__inner {
+    @apply grid grid-cols-3 gap-[30px];
+  }
+
+  .home-which__item {
+    @apply flex flex-col items-center text-center gap-[20px];
+  }
+
+  .item-img {
+    @apply p-[70px] border rounded-full;
+  }
+
+  .which-heading {
+    @apply text-2xl font-medium;
+  }
+
+  .which-description {
+    @apply font-normal text-base;
+  }
 }
