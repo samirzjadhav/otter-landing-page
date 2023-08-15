@@ -544,7 +544,7 @@ body {
   padding: 32px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .navbar {
     position: sticky;
     z-index: 10;

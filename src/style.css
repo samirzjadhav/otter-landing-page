@@ -13,8 +13,8 @@
   }
   .navbar {
     @apply p-[32px] hidden;
-    @apply sm:block sm:sticky sm:bg-white sm:w-[100%] sm:shadow-md sm:p-[15px] sm:z-10;
-    @apply sm:top-0 sm:left-0 sm:right-0 sm:bottom-0;
+    @apply md:block md:sticky md:bg-white md:w-[100%] md:shadow-md md:p-[15px] md:z-10;
+    @apply md:top-0 md:left-0 md:right-0 md:bottom-0;
   }
 
   .nav-menu {
