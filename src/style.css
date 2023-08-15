@@ -171,6 +171,10 @@
 
   /* Which Section */
 
+  .home-which {
+    @apply pb-[100px];
+  }
+
   .which-title {
     @apply flex justify-center mb-[40px];
   }
@@ -218,5 +222,23 @@
 
   .second-btn {
     @apply opacity-50 font-medium text-lg mr-[10px];
+  }
+
+  /* Footer */
+
+  .footer-container {
+    @apply p-[100px] bg-[#041D34];
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+  }
+
+  .footer-heading {
+    @apply font-normal text-xs uppercase;
+  }
+
+  .footer-list {
+    @apply flex flex-col gap-[30px] mr-[30px] text-white font-medium;
   }
 }
