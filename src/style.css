@@ -12,13 +12,13 @@
     @apply bg-[#f5f8fa];
   }
   .navbar {
-    @apply p-[32px] hidden;
+    @apply p-[32px];
     @apply md:block md:sticky md:bg-white md:w-[100%] md:shadow-md md:p-[15px] md:z-10;
     @apply md:top-0 md:left-0 md:right-0 md:bottom-0;
   }
 
   .nav-menu {
-    @apply flex justify-around items-center;
+    @apply flex justify-around items-center flex-col;
   }
   .nav-item {
     @apply flex gap-[30px];
