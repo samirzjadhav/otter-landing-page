@@ -9,7 +9,7 @@
 
 @layer components {
   body {
-    @apply bg-[#F5F8FA];
+    @apply bg-[#f5f8fa];
   }
   .navbar {
     @apply p-[32px] hidden;
@@ -54,6 +54,39 @@
 
   .icons {
     @apply w-[20px] h-[20px];
+  }
+
+  /* Nav DropDown */
+
+  .nav-dropdown__info {
+    @apply shadow-2xl rounded-xl p-[20px];
+  }
+
+  .nav-dropdown__item {
+    @apply flex gap-[10px];
+  }
+
+  .nav-item__list h3 {
+    @apply p-[10px];
+  }
+  .nav-item__link {
+    @apply flex items-center gap-[16px] p-[10px] my-[5px];
+  }
+
+  .nav-img-box {
+    @apply p-[16px] rounded-full;
+  }
+
+  .nav-img {
+    @apply w-[30px];
+  }
+
+  .dropdown-heading {
+    @apply font-medium text-lg mr-[10px];
+  }
+
+  .dropdown-discription {
+    @apply font-normal text-sm mt-[6px];
   }
 
   /* Banner */
