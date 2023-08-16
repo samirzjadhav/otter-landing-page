@@ -25,7 +25,7 @@
   }
 
   .nav-link {
-    @apply flex items-center gap-[6px];
+    @apply flex items-center justify-between gap-[6px] border-b-2 pb-[10px];
   }
 
   .nav-item > a {
