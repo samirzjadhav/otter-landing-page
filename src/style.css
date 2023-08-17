@@ -24,6 +24,14 @@
     @apply flex gap-[30px];
   }
 
+  .active {
+    @apply block !important;
+  }
+
+  .nav-item-box {
+    @apply hidden;
+  }
+
   .nav-link {
     @apply flex items-center justify-between gap-[6px] border-b-2 pb-[10px];
   }

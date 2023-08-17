@@ -574,6 +574,10 @@ body {
   gap: 30px;
 }
 
+.nav-item-box {
+  display: none;
+}
+
 .nav-link {
   display: flex;
   align-items: center;
