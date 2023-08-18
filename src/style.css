@@ -274,4 +274,12 @@
   .footer-list {
     @apply flex flex-col gap-[30px] mr-[30px] text-white font-medium;
   }
+
+  /* Blog */
+
+  .blog-hero-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    @apply shadow-2xl rounded-xl;
+  }
 }

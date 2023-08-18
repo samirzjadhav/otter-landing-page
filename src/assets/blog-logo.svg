@@ -1,0 +1,13 @@
+<svg width="420px" height="420px" viewBox="0 0 420 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#041D34" x="0" y="0" width="420" height="420" rx="210"/>
+        <g id="otterlogo" transform="translate(53.000000, 149.000000)" fill="#FFFFFF">
+            <rect id="Rectangle" x="180" y="0" width="32" height="122" rx="16"/>
+            <rect id="Rectangle" x="134" y="0" width="32" height="122" rx="16"/>
+            <rect id="Rectangle" x="226" y="38" width="32" height="46" rx="16"/>
+            <rect id="Rectangle" x="272" y="23" width="32" height="76" rx="16"/>
+            <path d="M60,91 C76.0325203,91 89,78.0320755 89,62 C89,45.9679245 76.0325203,33 60,33 C43.9674797,33 31,45.9679245 31,62 C31,78.0320755 43.9674797,91 60,91 L60,91 Z M60,122 C26.888454,122 0,95.1636364 0,62 C0,28.8363636 26.888454,2 60,2 C93.1702544,2 120,28.8363636 120,62 C120,95.1636364 93.1702544,122 60,122 Z" id="Shape"/>
+        </g>
+    </g>
+</svg>
