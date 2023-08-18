@@ -1134,12 +1134,12 @@ video {
   display: none;
 }
 
-.h-0 {
-  height: 0px;
-}
-
 .h-\[40px\] {
   height: 40px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-\[20px\] {
@@ -1156,10 +1156,6 @@ video {
 
 .w-\[8px\] {
   width: 8px;
-}
-
-.w-\[50\%\] {
-  width: 50%;
 }
 
 .flex-col {

@@ -1,4 +1,10 @@
 {
+  "name": "otter-landing-page",
+  "packageManager": "yarn@4.0.0-rc.43",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/style.css"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
