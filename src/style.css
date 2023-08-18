@@ -287,10 +287,6 @@
     @apply shadow-2xl rounded-xl;
   }
 
-  .blog-search input {
-    background: none;
-  }
-
   .category-link {
     @apply font-medium text-base py-[12px] px-[20px] rounded-full;
   }
