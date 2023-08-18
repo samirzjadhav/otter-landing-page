@@ -11,6 +11,11 @@
   body {
     @apply bg-[#f5f8fa];
   }
+
+  img {
+    @apply h-[100%];
+  }
+
   .navbar {
     @apply p-[32px] hidden;
     @apply md:block md:sticky md:bg-white md:w-[100%] md:shadow-md md:p-[15px] md:z-10;
@@ -277,6 +282,10 @@
 
   /* Blog */
 
+  .blog-article img {
+    @apply h-[100%];
+  }
+
   .blog-container {
     @apply w-[90%] m-auto py-[20px];
   }
@@ -284,6 +293,12 @@
   .blog-hero-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    @apply shadow-2xl rounded-xl;
+  }
+
+  .blog-article-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
     @apply shadow-2xl rounded-xl;
   }
 
