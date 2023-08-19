@@ -268,12 +268,12 @@
     @apply p-[100px] bg-[#041D34];
   }
   .footer-content {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
+    @apply flex flex-col gap-[50px] text-center justify-center items-center;
+    @apply lg:grid lg:grid-cols-4 lg:items-start lg:text-start;
   }
 
   .footer-heading {
-    @apply font-normal text-xs uppercase;
+    @apply font-normal text-xl uppercase;
   }
 
   .footer-list {
