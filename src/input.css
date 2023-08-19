@@ -286,6 +286,10 @@
     @apply h-[100%];
   }
 
+  .blog-img img {
+    @apply rounded-2xl;
+  }
+
   .blog-container {
     @apply w-[90%] m-auto py-[20px];
   }

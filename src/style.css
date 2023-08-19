@@ -1086,6 +1086,10 @@ video {
   height: 100%;
 }
 
+.blog-img img {
+  border-radius: 0.375rem;
+}
+
 .blog-container {
   margin: auto;
   width: 90%;
