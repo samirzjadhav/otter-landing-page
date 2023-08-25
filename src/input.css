@@ -232,7 +232,7 @@
   }
 
   .item-img img {
-    @apply w-[56px];
+    @apply w-[56px] h-[56px];
   }
 
   .which-info {
