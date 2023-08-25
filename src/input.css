@@ -327,7 +327,11 @@
     @apply flex flex-col gap-[20px] max-w-[640px];
   }
 
-  .bus-image {
-    @apply w-[600px];
+  .bus-cta {
+    @apply flex rounded-2xl flex-col items-center mb-[40px] pt-[160px] pb-[220px] px-[40px] relative;
+  }
+
+  .bus-cta-img {
+    @apply w-full bottom-0 flex justify-center items-center absolute;
   }
 }

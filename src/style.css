@@ -1192,8 +1192,26 @@ video {
   gap: 20px;
 }
 
-.bus-image {
-  width: 600px;
+.bus-cta {
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 160px;
+  padding-bottom: 220px;
+}
+
+.bus-cta-img {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .absolute {
@@ -1218,6 +1236,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-\[100\%\] {
+  height: 100%;
 }
 
 .h-\[100px\] {
@@ -1329,6 +1351,11 @@ video {
 }
 
 .bg-\[\#041D34\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 29 52 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#041d34\] {
   --tw-bg-opacity: 1;
   background-color: rgb(4 29 52 / var(--tw-bg-opacity));
 }
