@@ -316,4 +316,18 @@
   .category-link {
     @apply font-medium text-base py-[12px] px-[20px] rounded-full;
   }
+
+  /* Business  */
+
+  .bus-item-box {
+    @apply flex justify-center items-center gap-[100px] p-[50px];
+  }
+
+  .bus-items {
+    @apply flex flex-col gap-[20px] max-w-[640px];
+  }
+
+  .bus-image {
+    @apply w-[600px];
+  }
 }
