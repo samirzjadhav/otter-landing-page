@@ -187,7 +187,7 @@
   }
 
   .sponser-logos {
-    @apply flex flex-wrap gap-[40px] sm:gap-[20px] sm:py-[40px] sm:px-[20px]  justify-between items-center;
+    @apply grid grid-cols-2 sm:grid-cols-3  sm:gap-[48px]  sm:py-[40px] sm:px-[20px] place-items-center;
   }
 
   .sponser-logos img {
@@ -341,5 +341,11 @@
 
   .bus-cta-img {
     @apply w-full bottom-0 flex justify-center items-center absolute;
+  }
+
+  /* company section */
+
+  .company-item {
+    @apply p-[20px] flex flex-col items-center justify-center text-center border-4 shadow-xl;
   }
 }
