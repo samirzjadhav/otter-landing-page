@@ -5,6 +5,5 @@ const mobileNav = document.querySelector(".mobile-navbar");
 console.log(mobileNav);
 
 closeBtn.addEventListener("click", () => {
-  console.log("click");
   mobileNav.classList.toggle("active");
 });
