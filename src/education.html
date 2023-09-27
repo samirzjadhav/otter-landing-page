@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="input.css" />
     <title>Otter</title>
   </head>
   <body>
+    <!-- Responsive Mobile -->
+    <div
+      class="mobile-res flex justify-between items-center p-[20px] border-2 sticky z-10 top-0 left-0 right-0 bottom-0 bg-[#ffff] sm:hidden"
+    >
+      <img src="./assets/logo.svg" class="nav-logo" alt="" />
+      <img
+        src="./assets/close.svg"
+        id="nav-close-btn"
+        class="icons w-[32px] h-[32px]"
+        alt="close icons"
+      />
+    </div>
+    <div class="mobile-navbar mb-[20px] border-t-4 border-gray-200 p-[20px]">
+      <div class="nav-menu flex-col gap-[20px]">
+        <div class="nav-item flex-col">
+          <div class="nav-link">
+            <a href="#">Why Otter.ai</a>
+            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+          </div>
+          <div class="nav-link">
+            <a href="#">Pricing</a>
+          </div>
+          <div class="nav-link">
+            <a href="#">Download</a>
+            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+          </div>
+          <div class="nav-link">
+            <a href="#">Resources</a>
+            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+          </div>
+        </div>
+        <div class="nav-item flex-col items-center justify-center">
+          <div class="flex gap-[20px]">
+            <a href="#" class="nav-link sales">Contact Sales</a>
+            <a href="#" class="nav-link">Log in</a>
+          </div>
+          <a href="#" class="nav-link button">Start for Free</a>
+        </div>
+      </div>
+    </div>
+
     <div class="navbar">
       <div class="nav-menu">
         <img src="./assets/logo.svg" class="nav-logo" alt="" />
@@ -410,5 +452,7 @@
         </div>
       </div>
     </footer>
+    <!-- script js -->
+    <script src="./script.js"></script>
   </body>
 </html>
