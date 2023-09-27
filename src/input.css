@@ -328,7 +328,7 @@
   /* Business  */
 
   .bus-item-box {
-    @apply flex justify-center items-center gap-[100px] p-[50px];
+    @apply flex flex-col sm:flex-row gap-[40px] justify-center mb-[40px] items-center sm:gap-[40px] sm:p-[20px];
   }
 
   .bus-items {
@@ -336,15 +336,21 @@
   }
 
   .bus-cta {
-    @apply flex rounded-2xl flex-col items-center mb-[40px] pt-[160px] pb-[220px] px-[40px] relative;
+    @apply flex rounded-2xl flex-col items-center mb-[40px] pt-[160px] pb-[220px] px-[40px] relative m-[20px] lg:m-[auto];
   }
 
   .bus-cta-img {
     @apply w-full bottom-0 flex justify-center items-center absolute;
   }
 
-  /* company section */
+  .bus-discription {
+    @apply lg:w-[560px];
+  }
 
+  /* company section */
+  .company-content {
+    @apply flex flex-col sm:flex-row;
+  }
   .company-item {
     @apply p-[20px] flex flex-col items-center justify-center text-center border-4 shadow-xl;
   }
