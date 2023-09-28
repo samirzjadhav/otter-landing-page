@@ -18,7 +18,7 @@
 
   .navbar {
     @apply p-[32px] hidden;
-    @apply md:block md:sticky md:bg-white md:w-[100%] md:shadow-md md:p-[15px] md:z-10;
+    @apply md:block md:sticky md:bg-[#f5f8fa] md:w-[100%] md:shadow-md md:p-[15px] md:z-10;
     @apply md:top-0 md:left-0 md:right-0 md:bottom-0;
   }
 
@@ -95,6 +95,10 @@
   }
 
   .mobile-navbar {
+    display: none;
+  }
+
+  .nav-dropdown {
     display: none;
   }
 
