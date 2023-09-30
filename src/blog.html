@@ -12,9 +12,9 @@
     <div
       class="mobile-res flex justify-between items-center p-[20px] sm:hidden"
     >
-      <img src="./assets/logo.svg" class="nav-logo" alt="" />
+      <img src="./assets/page-svgs/logo.svg" class="nav-logo" alt="" />
       <img
-        src="./assets/close.svg"
+        src="./assets/page-svgs/close.svg"
         id="nav-close-btn"
         class="icons w-[32px] h-[32px]"
         alt="close icons"
@@ -25,18 +25,30 @@
         <div class="nav-item flex-col">
           <div class="nav-link">
             <a href="#">Why Otter.ai</a>
-            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+            <img
+              src="./assets/page-svgs/downword-arrow.svg"
+              class="icons"
+              alt=""
+            />
           </div>
           <div class="nav-link">
             <a href="#">Pricing</a>
           </div>
           <div class="nav-link">
             <a href="#">Download</a>
-            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+            <img
+              src="./assets/page-svgs/downword-arrow.svg"
+              class="icons"
+              alt=""
+            />
           </div>
           <div class="nav-link">
             <a href="#">Resources</a>
-            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+            <img
+              src="./assets/page-svgs/downword-arrow.svg"
+              class="icons"
+              alt=""
+            />
           </div>
         </div>
         <div class="nav-item flex-col items-center justify-center">
@@ -48,39 +60,46 @@
         </div>
       </div>
     </div>
+
     <div class="navbar">
       <div class="nav-menu">
-        <img src="./assets/logo.svg" class="nav-logo" alt="" />
+        <img src="./assets/page-svgs/logo.svg" class="nav-logo" alt="" />
 
         <div class="nav-item">
           <div class="nav-item-box">
-            <div class="nav-link">
+            <div class="nav-link" id="why-otter">
               <a href="#">Why Otter.ai</a>
-              <img src="./assets/chevron-down.svg" class="icons" alt="" />
+              <img
+                src="./assets/page-svgs/downword-arrow.svg"
+                class="icons"
+                alt=""
+              />
             </div>
-            <div class="nav-dropdown hidden">
-              <img src="./assets/nav-dropdown.svg" class="" alt="" />
+            <div id="nav-dropdown" class="nav-dropdown absolute z-10">
+              <img src="./assets/page-svgs/nav-dropdown.svg" class="" alt="" />
 
-              <div class="nav-dropdown__info">
+              <div class="nav-dropdown__info bg-white">
                 <div class="nav-dropdown__item">
                   <div class="nav-item__list">
                     <h3>Solution</h3>
 
-                    <div class="nav-item__link">
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
                       <div
                         class="nav-img-box bg-[#041D34] p-[16px] rounded-full"
                       >
                         <img
-                          src="./assets/business.svg"
+                          src="./assets/page-svgs/business.svg"
                           class="nav-img"
                           alt=""
                         />
                       </div>
                       <div class="nav-item-box">
                         <div class="nav-item__button flex items-center">
-                          <a href="#" class="dropdown-heading">For Business </a>
+                          <a href="./business.html" class="dropdown-heading"
+                            >For Business
+                          </a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -91,23 +110,23 @@
                         </p>
                       </div>
                     </div>
-                    <div class="nav-item__link">
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
                       <div
                         class="nav-img-box bg-[#19C184] p-[16px] rounded-full"
                       >
                         <img
-                          src="./assets/education.svg"
+                          src="./assets/page-svgs/education.svg"
                           class="nav-img"
                           alt=""
                         />
                       </div>
                       <div class="nav-item-box">
                         <div class="nav-item__button flex items-center">
-                          <a href="#" class="dropdown-heading"
+                          <a href="./education.html" class="dropdown-heading"
                             >For Education
                           </a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -118,11 +137,15 @@
                         </p>
                       </div>
                     </div>
-                    <div class="nav-item__link">
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
                       <div
                         class="nav-img-box bg-[#8A78F0] p-[16px] rounded-full"
                       >
-                        <img src="./assets/free.svg" class="nav-img" alt="" />
+                        <img
+                          src="./assets/page-svgs/free.svg"
+                          class="nav-img"
+                          alt=""
+                        />
                       </div>
                       <div class="nav-item-box">
                         <div class="nav-item__button flex items-center">
@@ -130,7 +153,7 @@
                             >For Individuals
                           </a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -148,7 +171,7 @@
                     <div class="nav-item__link">
                       <div class="nav-img-box p-0">
                         <img
-                          src="./assets/drop-icon-1.svg"
+                          src="./assets/page-svgs/drop-icon-1.svg"
                           class="nav-img w-[62px]"
                           alt=""
                         />
@@ -157,7 +180,7 @@
                         <div class="nav-item__button flex items-center">
                           <a href="#" class="dropdown-heading">Product Teams</a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -171,7 +194,7 @@
                     <div class="nav-item__link">
                       <div class="nav-img-box p-0">
                         <img
-                          src="./assets/drop-icon-2.svg"
+                          src="./assets/page-svgs/drop-icon-2.svg"
                           class="nav-img w-[62px]"
                           alt=""
                         />
@@ -180,7 +203,7 @@
                         <div class="nav-item__button flex items-center">
                           <a href="#" class="dropdown-heading">Sales Teams</a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -194,7 +217,7 @@
                     <div class="nav-item__link">
                       <div class="nav-img-box p-0">
                         <img
-                          src="./assets/drop-icon-3.svg"
+                          src="./assets/page-svgs/drop-icon-3.svg"
                           class="nav-img w-[62px]"
                           alt=""
                         />
@@ -203,7 +226,7 @@
                         <div class="nav-item__button flex items-center">
                           <a href="#" class="dropdown-heading">Media Teams </a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -220,7 +243,7 @@
                   class="nav-dropdown-button flex items-center justify-center p-[20px] border-t"
                 >
                   <a href="#" class="pr-[10px]">Otter AI Chat</a>
-                  <img src="./assets/right-arrow.svg" alt="" />
+                  <img src="./assets/page-svgs/right-arrow.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -230,11 +253,19 @@
           </div>
           <div class="nav-link">
             <a href="#">Download</a>
-            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+            <img
+              src="./assets/page-svgs/downword-arrow.svg"
+              class="icons"
+              alt=""
+            />
           </div>
           <div class="nav-link">
             <a href="#">Resources</a>
-            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+            <img
+              src="./assets/page-svgs/downword-arrow.svg"
+              class="icons"
+              alt=""
+            />
           </div>
         </div>
 
@@ -277,7 +308,7 @@
         <li><a href="#" class="category-link bg-[#E7ECF0]">Al</a></li>
       </ul>
       <div class="blog-search flex bg-[#fff] p-[10px] gap-[6px] rounded-full">
-        <img src="./assets/search.svg" class="w-[20px]" alt="" />
+        <img src="./assets/page-svgs/search.svg" class="w-[20px]" alt="" />
         <input type="search" placeholder="Search" class="no-underline ba" />
       </div>
     </div>
@@ -295,7 +326,11 @@
               Streamline your Meeting Workflow with the Otter App for Slack
             </div>
             <div class="flex gap-[10px]">
-              <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+              <img
+                src="./assets/page-svgs/blog-logo.svg"
+                class="w-[50px]"
+                alt=""
+              />
               <div class="">
                 <p>Otter</p>
                 <p>August 17, 2023</p>
@@ -310,7 +345,7 @@
           </div>
         </div>
         <div class="hero-img blog-img">
-          <img src="./assets/blog-home.png" alt="" />
+          <img src="./assets/blog-article/blog-home.png" alt="" />
         </div>
       </div>
     </div>
@@ -326,7 +361,7 @@
       <div class="blog-search flex justify-center items-center gap-[20px]">
         <input
           type="search"
-          placeholder="chuntua@otter.ai"
+          placeholder="newuser@otter.ai"
           class="no-underline bg-[#fff] px-[20px] py-[14px] rounded-full"
         />
         <a
@@ -341,7 +376,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-home.png" alt="" />
+            <img src="./assets/blog-article/blog-home.png" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -360,7 +395,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>August 17, 2023</p>
@@ -373,7 +412,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-article.gif" alt="" />
+            <img src="./assets/blog-article/blog-article.gif" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -394,7 +433,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>August 21, 2023</p>
@@ -407,7 +450,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-article-1.png" alt="" />
+            <img src="./assets/blog-article/blog-article-1.png" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -429,7 +472,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>May 17, 2023</p>
@@ -442,7 +489,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-article-2.png" alt="" />
+            <img src="./assets/blog-article/blog-article-2.png" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -463,7 +510,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>May 17, 2023</p>
@@ -476,7 +527,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-article-3.png" alt="" />
+            <img src="./assets/blog-article/blog-article-3.png" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -499,7 +550,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>May 17, 2023</p>
@@ -512,7 +567,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-article-4.png" alt="" />
+            <img src="./assets/blog-article/blog-article-4.png" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -535,7 +590,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>August 17, 2023</p>
@@ -548,7 +607,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-article-5.png" alt="" />
+            <img src="./assets/blog-article/blog-article-5.png" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -569,7 +628,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>August 17, 2023</p>
@@ -582,7 +645,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-article-6.png" alt="" />
+            <img src="./assets/blog-article/blog-article-6.png" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -606,7 +669,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>August 17, 2023</p>
@@ -619,7 +686,7 @@
       <div class="blog-article blog-container">
         <div class="blog-article-container">
           <div class="hero-img blog-img">
-            <img src="./assets/blog-article-7.png" alt="" />
+            <img src="./assets/blog-article/blog-article-7.png" alt="" />
           </div>
           <div class="hero-content">
             <div
@@ -640,7 +707,11 @@
                 </p>
               </div>
               <div class="flex gap-[10px]">
-                <img src="./assets/blog-logo.svg" class="w-[50px]" alt="" />
+                <img
+                  src="./assets/page-svgs/blog-logo.svg"
+                  class="w-[50px]"
+                  alt=""
+                />
                 <div class="">
                   <p>Otter</p>
                   <p>August 23, 2023</p>
@@ -660,11 +731,11 @@
 
     <footer class="home-footer">
       <div class="footer-bubble">
-        <img src="./assets/footer.svg" alt="" />
+        <img src="./assets/page-svgs/footer.svg" alt="" />
       </div>
       <div class="footer-container">
         <div class="footer-content">
-          <img src="./assets/logo.svg" class="h-[40px]" alt="" />
+          <img src="./assets/page-svgs/logo.svg" class="h-[40px]" alt="" />
           <div class="footer-list">
             <h3 class="footer-heading">why otter.ai</h3>
             <a href="#" class="footer-link">Otter for Business</a>
