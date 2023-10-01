@@ -1299,6 +1299,18 @@ video {
   top: 0px;
 }
 
+.top-\[100px\] {
+  top: 100px;
+}
+
+.top-\[42px\] {
+  top: 42px;
+}
+
+.top-\[50px\] {
+  top: 50px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1317,6 +1329,10 @@ video {
 
 .mt-\[20px\] {
   margin-top: 20px;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -1347,6 +1363,10 @@ video {
   height: 100%;
 }
 
+.h-\[55px\] {
+  height: 55px;
+}
+
 .w-\[200px\] {
   width: 200px;
 }
@@ -1373,6 +1393,10 @@ video {
 
 .w-\[8px\] {
   width: 8px;
+}
+
+.w-\[55px\] {
+  width: 55px;
 }
 
 .grid-cols-2 {
