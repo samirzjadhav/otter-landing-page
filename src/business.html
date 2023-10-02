@@ -51,37 +51,43 @@
 
     <div class="navbar">
       <div class="nav-menu">
-        <img src="./assets/logo.svg" class="nav-logo" alt="" />
+        <img src="./assets/page-svgs/logo.svg" class="nav-logo" alt="" />
 
         <div class="nav-item">
           <div class="nav-item-box">
-            <div class="nav-link">
+            <div class="nav-link" id="why-otter">
               <a href="#">Why Otter.ai</a>
-              <img src="./assets/chevron-down.svg" class="icons" alt="" />
+              <img
+                src="./assets/page-svgs/downword-arrow.svg"
+                class="icons"
+                alt=""
+              />
             </div>
-            <div class="nav-dropdown hidden">
-              <img src="./assets/nav-dropdown.svg" class="" alt="" />
+            <div id="nav-dropdown" class="nav-dropdown absolute z-10">
+              <img src="./assets/page-svgs/nav-dropdown.svg" class="" alt="" />
 
-              <div class="nav-dropdown__info">
+              <div class="nav-dropdown__info bg-white">
                 <div class="nav-dropdown__item">
                   <div class="nav-item__list">
                     <h3>Solution</h3>
 
-                    <div class="nav-item__link">
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
                       <div
                         class="nav-img-box bg-[#041D34] p-[16px] rounded-full"
                       >
                         <img
-                          src="./assets/business.svg"
+                          src="./assets/page-svgs/business.svg"
                           class="nav-img"
                           alt=""
                         />
                       </div>
                       <div class="nav-item-box">
                         <div class="nav-item__button flex items-center">
-                          <a href="#" class="dropdown-heading">For Business </a>
+                          <a href="./business.html" class="dropdown-heading"
+                            >For Business
+                          </a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -92,23 +98,23 @@
                         </p>
                       </div>
                     </div>
-                    <div class="nav-item__link">
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
                       <div
                         class="nav-img-box bg-[#19C184] p-[16px] rounded-full"
                       >
                         <img
-                          src="./assets/education.svg"
+                          src="./assets/page-svgs/education.svg"
                           class="nav-img"
                           alt=""
                         />
                       </div>
                       <div class="nav-item-box">
                         <div class="nav-item__button flex items-center">
-                          <a href="#" class="dropdown-heading"
+                          <a href="./education.html" class="dropdown-heading"
                             >For Education
                           </a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -119,11 +125,15 @@
                         </p>
                       </div>
                     </div>
-                    <div class="nav-item__link">
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
                       <div
                         class="nav-img-box bg-[#8A78F0] p-[16px] rounded-full"
                       >
-                        <img src="./assets/free.svg" class="nav-img" alt="" />
+                        <img
+                          src="./assets/page-svgs/free.svg"
+                          class="nav-img"
+                          alt=""
+                        />
                       </div>
                       <div class="nav-item-box">
                         <div class="nav-item__button flex items-center">
@@ -131,7 +141,7 @@
                             >For Individuals
                           </a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -149,7 +159,7 @@
                     <div class="nav-item__link">
                       <div class="nav-img-box p-0">
                         <img
-                          src="./assets/drop-icon-1.svg"
+                          src="./assets/page-svgs/drop-icon-1.svg"
                           class="nav-img w-[62px]"
                           alt=""
                         />
@@ -158,7 +168,7 @@
                         <div class="nav-item__button flex items-center">
                           <a href="#" class="dropdown-heading">Product Teams</a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -172,7 +182,7 @@
                     <div class="nav-item__link">
                       <div class="nav-img-box p-0">
                         <img
-                          src="./assets/drop-icon-2.svg"
+                          src="./assets/page-svgs/drop-icon-2.svg"
                           class="nav-img w-[62px]"
                           alt=""
                         />
@@ -181,7 +191,7 @@
                         <div class="nav-item__button flex items-center">
                           <a href="#" class="dropdown-heading">Sales Teams</a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -195,7 +205,7 @@
                     <div class="nav-item__link">
                       <div class="nav-img-box p-0">
                         <img
-                          src="./assets/drop-icon-3.svg"
+                          src="./assets/page-svgs/drop-icon-3.svg"
                           class="nav-img w-[62px]"
                           alt=""
                         />
@@ -204,7 +214,7 @@
                         <div class="nav-item__button flex items-center">
                           <a href="#" class="dropdown-heading">Media Teams </a>
                           <img
-                            src="./assets/right-arrow.svg"
+                            src="./assets/page-svgs/right-arrow.svg"
                             class="w-[8px]"
                             alt=""
                           />
@@ -221,7 +231,7 @@
                   class="nav-dropdown-button flex items-center justify-center p-[20px] border-t"
                 >
                   <a href="#" class="pr-[10px]">Otter AI Chat</a>
-                  <img src="./assets/right-arrow.svg" alt="" />
+                  <img src="./assets/page-svgs/right-arrow.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -229,13 +239,269 @@
           <div class="nav-link">
             <a href="#">Pricing</a>
           </div>
-          <div class="nav-link">
+          <div class="nav-link" id="dowload">
             <a href="#">Download</a>
-            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+            <img
+              src="./assets/page-svgs/downword-arrow.svg"
+              class="icons"
+              alt=""
+            />
+            <div id="dowload-nav" class="nav-dropdown absolute z-10 top-[50px]">
+              <img src="./assets/page-svgs/nav-dropdown.svg" class="" alt="" />
+
+              <div class="nav-dropdown__info bg-white">
+                <div class="nav-dropdown__item">
+                  <div class="nav-item__list">
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/ios.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="./business.html" class="dropdown-heading"
+                            >Otter for IOS
+                          </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">
+                          Download the app fo all <br />
+                          iOS devices
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/android.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="./business.html" class="dropdown-heading"
+                            >Otter for Android
+                          </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">
+                          Download the app for <br />
+                          all Android devices
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/chrome.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="./education.html" class="dropdown-heading"
+                            >Chrome extension
+                          </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">
+                          Download to use Otter <br />
+                          in your browser
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/slack.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="#" class="dropdown-heading"
+                            >Otter app for Slack
+                          </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">
+                          Download to use Otter <br />
+                          for Slack
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="nav-dropdown-button flex items-center justify-center p-[20px] border-t"
+                >
+                  <a href="#" class="pr-[10px]">All Apps</a>
+                  <img src="./assets/page-svgs/right-arrow.svg" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="nav-link">
+          <div class="nav-link" id="resources">
             <a href="#">Resources</a>
-            <img src="./assets/chevron-down.svg" class="icons" alt="" />
+            <img
+              src="./assets/page-svgs/downword-arrow.svg"
+              class="icons"
+              alt=""
+            />
+            <div
+              id="resources-nav"
+              class="nav-dropdown absolute z-10 top-[50px]"
+            >
+              <img src="./assets/page-svgs/nav-dropdown.svg" class="" alt="" />
+
+              <div class="nav-dropdown__info bg-white">
+                <div class="nav-dropdown__item">
+                  <div class="nav-item__list">
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/blog.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="./blog.html" class="dropdown-heading"
+                            >Blog
+                          </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">
+                          See what we’ve been up <br />
+                          to and thinking about
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/press.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="./business.html" class="dropdown-heading"
+                            >Press
+                          </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">
+                          The latest product and <br />
+                          company news
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/resource.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="./education.html" class="dropdown-heading"
+                            >Resources
+                          </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">
+                          Explore our content library
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/careers.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="#" class="dropdown-heading">Careers </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">Come join our team</p>
+                      </div>
+                    </div>
+                    <div class="nav-item__link hover:bg-gray-100 rounded-md">
+                      <div class="nav-img-box p-0">
+                        <img
+                          src="./assets/page-svgs/support.svg"
+                          class="nav-img w-[55px] h-[55px]"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-item-box">
+                        <div class="nav-item__button flex items-center">
+                          <a href="#" class="dropdown-heading"
+                            >Help & Support
+                          </a>
+                          <img
+                            src="./assets/page-svgs/right-arrow.svg"
+                            class="w-[8px]"
+                            alt=""
+                          />
+                        </div>
+                        <p class="dropdown-discription">
+                          Need some help using <br />
+                          Otter? Get the answers
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -282,12 +548,12 @@
     </div>
     <div class="content-spon home-container">
       <div class="sponser-logos">
-        <img src="./assets/dropbox.svg" alt="" />
-        <img src="./assets/zoom.svg" alt="" />
-        <img src="./assets/imb.svg" alt="" />
-        <img src="./assets/docomo.svg" alt="" />
-        <img src="./assets/rakuten.svg" alt="" />
-        <img src="./assets/ucla.svg" alt="" />
+        <img src="./assets/page-svgs/dropbox.svg" alt="" />
+        <img src="./assets/page-svgs/zoom.svg" alt="" />
+        <img src="./assets/page-svgs/imb.svg" alt="" />
+        <img src="./assets/page-svgs/docomo.svg" alt="" />
+        <img src="./assets/page-svgs/rakuten.svg" alt="" />
+        <img src="./assets/page-svgs/ucla.svg" alt="" />
       </div>
     </div>
 
@@ -296,7 +562,7 @@
         <div class="company-content flex gap-[30px] text-[#041d34]">
           <div class="company-item">
             <img
-              src="./assets/fast-company.svg"
+              src="./assets/page-svgs/fast-company.svg"
               class="w-[50%] h-[100px]"
               alt=""
             />
@@ -309,7 +575,7 @@
 
           <div class="company-item">
             <img
-              src="./assets/tech-Crunch.svg"
+              src="./assets/page-svgs/tech-Crunch.svg"
               class="w-[50%] h-[100px]"
               alt=""
             />
@@ -322,7 +588,11 @@
           </div>
 
           <div class="company-item">
-            <img src="./assets/wired.svg" class="w-[50%] h-[100px]" alt="" />
+            <img
+              src="./assets/page-svgs/wired.svg"
+              class="w-[50%] h-[100px]"
+              alt=""
+            />
             <h3 class="text-2xl font-normal">
               Otter.ai is an absolute lifesaver for anyone who’s ever been
               tasked with the unenviable task of transcribed interviews, events
@@ -349,12 +619,20 @@
             </p>
           </div>
           <div class="bus-image">
-            <img src="./assets/business-img-1.png" class="rounded-xl" alt="" />
+            <img
+              src="./assets/business-imgs/business-img-1.png"
+              class="rounded-xl"
+              alt=""
+            />
           </div>
         </div>
         <div class="bus-item-box flex-col-reverse sm:flex-row">
           <div class="bus-image">
-            <img src="./assets/business-img-2.png" class="rounded-xl" alt="" />
+            <img
+              src="./assets/business-imgs/business-img-2.png"
+              class="rounded-xl"
+              alt=""
+            />
           </div>
           <div class="bus-items">
             <div class="flex flex-col gap-[10px]">
@@ -383,12 +661,20 @@
             </p>
           </div>
           <div class="bus-image">
-            <img src="./assets/business-img-3.png" class="rounded-xl" alt="" />
+            <img
+              src="./assets/business-imgs/business-img-3.png"
+              class="rounded-xl"
+              alt=""
+            />
           </div>
         </div>
         <div class="bus-item-box flex-col-reverse sm:flex-row">
           <div class="bus-image">
-            <img src="./assets/business-img-4.png" class="rounded-xl" alt="" />
+            <img
+              src="./assets/business-imgs/business-img-4.png"
+              class="rounded-xl"
+              alt=""
+            />
           </div>
           <div class="bus-items">
             <div class="flex flex-col gap-[10px]">
@@ -413,7 +699,7 @@
       </h1>
       <a href="" class="button">Contact Sales</a>
       <div class="bus-cta-img">
-        <img src="./assets/alien.svg" alt="" />
+        <img src="./assets/page-svgs/alien.svg" alt="" />
       </div>
     </div>
 
@@ -422,7 +708,7 @@
       <div class="home-which__inner grid-cols-2">
         <div class="home-which__item">
           <div class="item-img bg-[#19C184]">
-            <img src="./assets/education.svg" alt="" />
+            <img src="./assets/page-svgs/education.svg" alt="" />
           </div>
           <div class="which-info">
             <h3 class="which-heading">For your lectures</h3>
@@ -432,14 +718,18 @@
             </p>
             <a href="#" class="which-btn button">Try Otter.ai for Education</a>
             <div class="which-sec_button">
-              <a href="#" class="second-btn">For Education </a>
-              <img src="./assets/right-arrow.svg" class="w-[8px]" alt="" />
+              <a href="education.html" class="second-btn">For Education </a>
+              <img
+                src="./assets/page-svgs/right-arrow.svg"
+                class="w-[8px]"
+                alt=""
+              />
             </div>
           </div>
         </div>
         <div class="home-which__item">
           <div class="item-img bg-[#007aff]">
-            <img src="./assets/enterprise.svg" alt="" />
+            <img src="./assets/page-svgs/enterprise.svg" alt="" />
           </div>
           <div class="which-info">
             <h3 class="which-heading">For Enterprise</h3>
@@ -447,10 +737,16 @@
               Otter provides large organizations with advanced admin controls,
               additional support and security at scale.
             </p>
-            <a href="#" class="which-btn button">Try Otter.ai for Business</a>
+            <a href="business.html" class="which-btn button"
+              >Try Otter.ai for Enterprise</a
+            >
             <div class="which-sec_button">
               <a href="#" class="second-btn">For Business </a>
-              <img src="./assets/right-arrow.svg" class="w-[8px]" alt="" />
+              <img
+                src="./assets/page-svgs/right-arrow.svg"
+                class="w-[8px]"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -459,11 +755,11 @@
 
     <footer class="home-footer">
       <div class="footer-bubble">
-        <img src="./assets/footer.svg" alt="" />
+        <img src="./assets/page-svgs/footer.svg" alt="" />
       </div>
       <div class="footer-container">
         <div class="footer-content">
-          <img src="./assets/logo.svg" class="h-[40px]" alt="" />
+          <img src="./assets/page-svgs/logo.svg" class="h-[40px]" alt="" />
           <div class="footer-list">
             <h3 class="footer-heading">why otter.ai</h3>
             <a href="#" class="footer-link">Otter for Business</a>
